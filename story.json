@@ -1,0 +1,15 @@
+{
+  "start": "Entrada",
+  "nodes": {
+    "Entrada": {
+      "text": [
+        "Un templo cubierto de enredaderas te observa en silencio.",
+        "El viento corta entre columnas rotas. Las piedras desgastadas parecen susurrar tu nombre."
+      ],
+      "sounds": [
+        { "file": "Proof1.wav", "pos": [0,0,1], "gain": 0.4, "loop": true }
+      ],
+      "options": { }
+    }
+  }
+}
