@@ -26,6 +26,12 @@ class Node:
 
             route = os.path.join(audio_path, i["file"])
             src = openal.oalOpen(route)
+            if "gain" in i:
+                src.set_gain(float(i["gain"]))
+            if "pos" in i:  
+                src.set_position(tuple(i["pos"]))
+            if "loop" in i: 
+                src.set_looping(bool(i["loop"]))
             src.play()
             files.append(src)
         return files
