@@ -8,7 +8,7 @@
       ],
       "sounds": [
         { "file": "wind.wav", "pos": [0,0,0],    "gain": 1.0,  "loop": true  },
-        { "file": "raven.wav", "pos": [-2,0,0.5], "gain": 0.05, "loop": false },
+        { "file": "raven.wav", "pos": [-2,0,0.5], "gain": 0.08, "loop": false },
         { "file": "whisper.wav", "pos": [0,0,0.8], "gain": 0.38, "loop": false }
       ],
       "options": { "entrar": "pasillo1", "rodear": "patio1", "huir": "huida" }
@@ -44,8 +44,8 @@
       ],
       "sounds": [
         { "file": "Wind2.wav",     "pos": [0,0,0],  "gain": 0.30, "loop": true },
-        { "file": "stonehead.wav",     "pos": [-1,0,0], "gain": 0.18, "loop": false },
-        { "file": "radiance.wav",  "pos": [0,0,1],  "gain": 0.35, "loop": true }
+        { "file": "stonehead.wav",  "pos": [-1,0,0], "gain": 0.18, "loop": true },
+        { "file": "radiance.wav",  "pos": [0,0,1],  "gain": 0.35, "loop": false }
       ],
       "options": { "bajar a la cueva": "cueva1", "ir al muro": "patio3", "volver": "patio1" }
     },
@@ -56,7 +56,7 @@
         "El aire huele a tierra húmeda."
       ],
       "sounds": [
-        { "file": "land.wav",  "pos": [0,0,0.6], "gain": 0.45, "loop": true },
+        { "file": "land.wav",  "pos": [0,0,0.6], "gain": 0.05, "loop": false },
         { "file": "stonehead.wav", "pos": [0,0,1.2], "gain": 0.25, "loop": false }
       ],
       "options": { "entrar al pasaje": "pasaje_oculto1", "volver": "patio2" }
@@ -69,7 +69,7 @@
       ],
       "sounds": [
         { "file": "sound1.wav", "pos": [0,0,0],   "gain": 0.25, "loop": true },
-        { "file": "scrape.wav",  "pos": [0,0,-1],  "gain": 0.60, "loop": true },
+        { "file": "scrape.wav",  "pos": [0,0,-1],  "gain": 0.60, "loop": false },
         { "file": "whisper2.wav", "pos": [0,0,0],   "gain": 0.25, "loop": true }
       ],
       "options": { "avanzar": "pasaje_oculto2", "volver": "patio3" }
@@ -93,8 +93,8 @@
         "Una vela gastada aún lanza humo."
       ],
       "sounds": [
-        { "file": "waterdrops.wav",   "pos": [0,0,1.2], "gain": 0.50, "loop": true },
-        { "file": "candle.wav", "pos": [0,0,0],   "gain": 0.30, "loop": true }
+        { "file": "waterdrops.wav",   "pos": [0,0,1.2], "gain": 0.20, "loop": true },
+        { "file": "candle.wav", "pos": [0,0,0],   "gain": 0.80, "loop": true }
       ],
       "options": { "avanzar": "cueva2", "volver": "patio2" }
     },
@@ -105,9 +105,9 @@
         "Un anillo metálico suena al pisar."
       ],
       "sounds": [
-        { "file": "waterdrops.wav",  "pos": [0,0,1],   "gain": 0.25, "loop": true },
-        { "file": "bones.wav", "pos": [0,0,-0.5],"gain": 0.70, "loop": false },
-        { "file": "ring.wav",  "pos": [0.5,0,0], "gain": 0.55, "loop": false }
+        { "file": "waterdrops.wav",  "pos": [0,0,1],   "gain": 0.10, "loop": true },
+        { "file": "bones.wav", "pos": [0,0,-0.5],"gain": 0.80, "loop": false },
+        { "file": "ring.wav",  "pos": [0.5,0,0], "gain": 0.75, "loop": false }
       ],
       "options": { "volver": "patio2" }
     },
@@ -131,7 +131,7 @@
       ],
       "sounds": [
         { "file": "flee.wav", "pos": [0,0,0], "gain": 0.25, "loop": true },
-        { "file": "whisper.wav",     "pos": [1,0,0], "gain": 0.45, "loop": false }
+        { "file": "whisper.wav",     "pos": [5,0,0], "gain": 0.45, "loop": false }
       ],
       "options": { "seguir susurro": "sala_fuego", "avanzar": "pasillo3" }
     },
@@ -142,7 +142,7 @@
         "Un ligero viento recorre el suelo."
       ],
       "sounds": [
-        { "file": "drip.wav",   "pos": [0,0,1.5], "gain": 0.60, "loop": true },
+        { "file": "drip.wav",   "pos": [0,0,1.5], "gain": 0.80, "loop": true },
         { "file": "sound1.wav", "pos": [0,-2.5,0],   "gain": 0.30, "loop": false }
       ],
       "options": { "ir al agua": "inundada1", "volver": "pasillo2", "ir al lamento": "pasillo4" }
@@ -166,7 +166,7 @@
         "Uno de los símbolos se ilumina cuando lo tocas."
       ],
       "sounds": [
-        { "file": "wall.wav", "pos": [0,0,1], "gain": 0.40, "loop": true },
+        { "file": "wall.wav", "pos": [0,0,1], "gain": 0.60, "loop": false },
         { "file": "radiance.wav",    "pos": [0,0,1], "gain": 0.30, "loop": false }
       ],
       "options": { "ir a sala de fuego": "sala_fuego", "volver": "pasillo4" }
@@ -203,7 +203,7 @@
         "El lugar queda en silencio por un instante."
       ],
       "sounds": [
-        { "file": "breathing.wav", "pos": [0,0,0], "gain": 0.25, "loop": false }
+        { "file": "breathing.wav", "pos": [0,0,0], "gain": 0.25, "loop": true }
       ],
       "options": { "salir": "sala_fuego" }
     },
@@ -213,7 +213,7 @@
         "Sombras invisibles arañan tu piel: debes moverte."
       ],
       "sounds": [
-        { "file": "nails.wav",    "pos": [0.5,0,0], "gain": 0.70, "loop": false },
+        { "file": "nails.wav",    "pos": [0.5,0,0], "gain": 0.30, "loop": false },
         { "file": "flee.wav","pos": [0,0,-1],  "gain": 0.25, "loop": true }
       ],
       "options": { "correr al río": "rio1", "volver": "sala_fuego" }
@@ -225,7 +225,7 @@
         "Las sombras se alejan y las voces te agradecen."
       ],
       "sounds": [
-        { "file": "fire.wav",          "pos": [0,0,1],  "gain": 0.90, "loop": true },
+        { "file": "fire.wav", "pos": [0,0,1],  "gain": 0.60, "loop": true },
         { "file": "whisper.wav", "pos": [0,0,-1], "gain": 0.40, "loop": false }
       ],
       "options": { "avanzar al río": "rio1" }
@@ -237,8 +237,8 @@
         "De pronto, detrás de ti se oye el relincho de un caballo."
       ],
       "sounds": [
-        { "file": "river.wav",    "pos": [1,0,0],   "gain": 0.70, "loop": true },
-        { "file": "horse.wav","pos": [0,0,-1.5],"gain": 0.50, "loop": false }
+        { "file": "river.wav",    "pos": [1,0,0],   "gain": 0.50, "loop": true },
+        { "file": "horse.wav","pos": [0,0,-1.5],"gain": 0.30, "loop": false }
       ],
       "options": { "seguir río": "rio2", "seguir caballo": "caballo1" }
     },
@@ -249,8 +249,8 @@
         "El pasillo retumba con el sonido de una estampida."
       ],
       "sounds": [
-        { "file": "horse.wav", "pos": [0,0,-2], "gain": 0.70, "loop": false },
-        { "file": "stampede.wav", "pos": [0.5,0,0],"gain": 0.55, "loop": false }
+        { "file": "horse.wav", "pos": [0,0,-2], "gain": 0.30, "loop": false },
+        { "file": "stampede.wav", "pos": [0.5,0,0],"gain": 0.50, "loop": false }
       ],
       "options": { "esquivar estampida": "caballo2", "ir al río": "rio2" }
     },
@@ -261,7 +261,7 @@
         "La estampida se aleja hacia la oscuridad."
       ],
       "sounds": [
-        { "file": "stampede.wav", "pos": [-1,0,0], "gain": 0.70, "loop": false },
+        { "file": "stampede.wav", "pos": [-1,0,0], "gain": 0.40, "loop": false },
         { "file": "sound1.wav",      "pos": [0,0,0],  "gain": 0.30, "loop": false }
       ],
       "options": { "seguir": "rio2" }
@@ -273,8 +273,8 @@
         "Voces lejanas se mezclan con el agua."
       ],
       "sounds": [
-        { "file": "river.wav",   "pos": [1,-3.5,0],  "gain": 0.70, "loop": true },
-        { "file": "voices.wav", "pos": [0,-1.5,0.5],"gain": 0.45, "loop": true }
+        { "file": "river.wav",   "pos": [1,-3.5,0],  "gain": 0.60, "loop": true },
+        { "file": "voices.wav", "pos": [0,-1.5,0.5],"gain": 0.55, "loop": true }
       ],
       "options": { "explorar cueva": "cueva_lateral1", "seguir río": "rio3" }
     },
@@ -285,8 +285,8 @@
         "Un murmullo conocido se repite como mantra."
       ],
       "sounds": [
-        { "file": "whisper.wav", "pos": [0,0,1], "gain": 0.50, "loop": true },
-        { "file": "waterdrops.wav", "pos": [0,0,1], "gain": 0.25, "loop": true }
+        { "file": "whisper.wav", "pos": [0,0,1], "gain": 0.50, "loop": false },
+        { "file": "waterdrops.wav", "pos": [0,0,1], "gain": 0.10, "loop": true }
       ],
       "options": { "inspeccionar círculo": "cueva_lateral2", "volver": "rio2" }
     },
@@ -297,7 +297,8 @@
         "La vibración te empuja suavemente hacia atrás."
       ],
       "sounds": [
-        { "file": "motion.wav", "pos": [0,0,0.5], "gain": 0.55, "loop": false }
+        { "file": "motion.wav", "pos": [0,0,0.5], "gain": 0.55, "loop": false },
+        { "file": "waterdrops.wav", "pos": [0,0,1], "gain": 0.10, "loop": true }
       ],
       "options": { "volver": "rio2" }
     },
@@ -317,8 +318,8 @@
         "Cuatro puertas resuenan distinto: canto, gritos, risas y llanto."
       ],
       "sounds": [
-        { "file": "singing.wav", "pos": [1,0,0], "gain": 0.50, "loop": true },
-        { "file": "shout.wav", "pos": [-1,0,0], "gain": 0.50, "loop": true },
+        { "file": "singing.wav", "pos": [1,0,0], "gain": 0.60, "loop": true },
+        { "file": "shout.wav", "pos": [-1,0,0], "gain": 0.10, "loop": true },
         { "file": "laughter.wav", "pos": [1,0,1], "gain": 0.50, "loop": true },
         { "file": "crying.wav", "pos": [-1,0,-1], "gain": 0.50, "loop": true }
       ],
@@ -331,8 +332,8 @@
         "No queda aire para respirar."
       ],
       "sounds": [
-        { "file": "sound2.wav", "pos": [0,0,1], "gain": 0.90, "loop": false },
-        { "file": "shout.wav", "pos": [0,0,0], "gain": 0.70, "loop": true }
+        { "file": "sound2.wav", "pos": [0,0,1], "gain": 0.90, "loop": true },
+        { "file": "shout.wav", "pos": [0,0,0], "gain": 0.20, "loop": true }
       ],
       "options": { "entrar": "fin_malo" }
     },
@@ -393,7 +394,7 @@
         "El tambor truena en desaprobación."
       ],
       "sounds": [
-        { "file": "cracks.wav", "pos": [0,0,2], "gain": 0.90, "loop": false }
+        { "file": "cracks.wav", "pos": [0,0,2], "gain": 0.60, "loop": false }
       ],
       "options": { "insistir": "prueba3", "volver a escuchar": "prueba1" }
     },
@@ -405,7 +406,7 @@
       ],
       "sounds": [
         { "file": "drum.wav", "pos": [0,0,2], "gain": 0.80, "loop": true },
-        { "file": "beats.wav", "pos": [0,0,0], "gain": 0.60, "loop": false }
+        { "file": "beats.wav", "pos": [0,0,0], "gain": 0.40, "loop": true }
       ],
       "options": { "clavar el ritmo": "corazon1", "fallar": "prueba_fallo" }
     },
@@ -416,8 +417,8 @@
         "Las paredes tiemblan y la sala colapsa."
       ],
       "sounds": [
-        { "file": "collapse.wav", "pos": [0,0,-1], "gain": 0.90, "loop": false },
-        { "file": "shout.wav",   "pos": [0,0,1],  "gain": 0.70, "loop": false }
+        { "file": "collapse.wav", "pos": [0,0,-1], "gain": 0.90, "loop": true },
+        { "file": "shout.wav",   "pos": [0,0,1],  "gain": 0.20, "loop": false }
       ],
       "options": { "colapsar": "fin_malo" }
     },
@@ -429,7 +430,7 @@
       ],
       "sounds": [
         { "file": "bell.wav",   "pos": [0,5,0], "gain": 0.60, "loop": true },
-        { "file": "murmurss.wav",     "pos": [0,0,0],  "gain": 0.60, "loop": true }
+        { "file": "murmurss.wav",     "pos": [0,0,0],  "gain": 0.30, "loop": true }
       ],
       "options": { "usar gema": "fin_bueno", "destruir altar": "fin_neutral", "no hacer nada": "fin_malo" }
     },
@@ -462,7 +463,7 @@
         "Las voces te rodean, se aferran a ti y te consumen."
       ],
       "sounds": [
-        { "file": "sound3.wav", "pos": [0,0,0], "gain": 0.80, "loop": true  },
+        { "file": "sound3.wav", "pos": [0,0,0], "gain": 1.0, "loop": true  },
         { "file": "whisper.wav", "pos": [0,0,1], "gain": 0.70, "loop": false }
       ],
       "options": {}
